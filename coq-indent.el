@@ -737,7 +737,7 @@ argument must be t if inside the {}s of a record, nil otherwise."
           (+ (current-indentation) proof-indent))
          ((proof-looking-at-safe (proof-regexp-alt-list coq-keywords-defn))
           (current-column))
-         (t (+ (current-column) proof-indent)))))
+         (t (current-column)))))
 
      ;; if we find a "then" we indent from the first unclosed if
      ;; or from the command start (should not happen)
