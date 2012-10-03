@@ -26,7 +26,7 @@
    ;; forall with must not be enclosed by \\< and
    ;;\\> . "~" forall but interacts with 'not'
    (proof-ids-to-regexp
-    '("as" "Cases" "match" "else" "Fix" "forall" "fun" "if" "into" "let" "then"
+    '("as" "Cases" "match" "else" "Fix" "forall" "fun" "if" "into" "then"
       "using" "after"))))
 ; "ALL" "True" "False" "EX" "end" "in" "of" "with"
 
